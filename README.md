@@ -5,6 +5,14 @@ Small CSS file that correctly sets quotation marks for many different languages.
 
 The stylesheet will make sure that all the quotes will look typographically correct no matter which language is your web content.
 
+Installation
+------------
+
+```
+bower install intl-quotes
+```
+
+
 Example source code
 -------------------
 
