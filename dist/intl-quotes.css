@@ -6,7 +6,7 @@
   quotes: '\201E' '\201C' '\2018' '\2019';
 }
 :lang(ar) q {
-  quotes: '\201D' '\201C' /* rtl fix */ '\201C' '\201D';
+  quotes: '\201D' '\201C' '\201C' '\201D';
 }
 :lang(hy) q {
   quotes: '\00AB' '\00BB' '\00AB' '\00BB';
@@ -92,7 +92,6 @@
 :lang(he) q,
 :lang(iw) q {
   quotes: '\201E' '\201D' '\2019' '\201A';
-  /* rtl fix */
 }
 :lang(hu) q {
   quotes: '\201E' '\201D' '\00BB' '\00AB';
