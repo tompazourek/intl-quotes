@@ -1,0 +1,189 @@
+/*! intl-quotes v0.3.0 | Tomáš Pažourek | MIT License */
+:lang(af) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(sq) q {
+  quotes: '\201E' '\201C' '\2018' '\2019';
+}
+:lang(ar) q {
+  quotes: '\201D' '\201C' /* rtl fix */ '\201C' '\201D';
+}
+:lang(hy) q {
+  quotes: '\00AB' '\00BB' '\00AB' '\00BB';
+}
+:lang(az) q {
+  quotes: '\00AB' '\00BB' '\2039' '\203A';
+}
+:lang(eu) q {
+  quotes: '\00AB' '\00BB' '\2039' '\203A';
+}
+:lang(be) q {
+  quotes: '\00AB' '\00BB' '\00AB' '\00BB';
+}
+:lang(bg) q {
+  quotes: '\201E' '\201C' '\2019' '\2019';
+}
+:lang(ca) q {
+  quotes: '\00AB' '\00BB' '\201C' '\201D';
+}
+:lang(zh) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(zh-Hans) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(zh-Hant) q {
+  quotes: '\300c' '\300d' '\300e' '\300f';
+}
+:lang(cr) q {
+  quotes: '\201E' '\201D' '\201A' '\2019';
+}
+:lang(cs) q {
+  quotes: '\201E' '\201C' '\201A' '\2018';
+}
+:lang(da) q {
+  quotes: '\00BB' '\00AB' '\201E' '\201C';
+}
+:lang(nl) q {
+  quotes: '\2018' '\2019' '\201C' '\201D';
+}
+:lang(en) q {
+  quotes: '\2018' '\2019' '\201C' '\201D';
+}
+:lang(en-GB) q {
+  quotes: '\2018' '\2019' '\201C' '\201D';
+}
+:lang(en-US) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(en-CA) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(eo) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(et) q {
+  quotes: '\201E' '\201C';
+}
+:lang(fil) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(fi) q {
+  quotes: '\201D' '\201D' '\2019' '\2019';
+}
+:lang(fr) q {
+  quotes: '\00AB\2005' '\2005\00BB' '\201C' '\201D';
+}
+:lang(fr-ch) q {
+  quotes: '\00AB' '\00BB' '\2039' '\203A';
+}
+:lang(ka) q {
+  quotes: '\201E' '\201C';
+}
+:lang(de) q {
+  quotes: '\201E' '\201C' '\201A' '\2018';
+}
+:lang(de-ch) q {
+  quotes: '\00AB' '\00BB' '\2039' '\203A';
+}
+:lang(el) q {
+  quotes: '\00AB' '\00BB' '\201C' '\201D';
+}
+:lang(he) q,
+:lang(iw) q {
+  quotes: '\201E' '\201D' '\2019' '\201A';
+  /* rtl fix */
+}
+:lang(hu) q {
+  quotes: '\201E' '\201D' '\00BB' '\00AB';
+}
+:lang(is) q {
+  quotes: '\201E' '\201C' '\201A' '\2018';
+}
+:lang(id) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(ia) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(ga) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(it) q {
+  quotes: '\00AB' '\00BB' '\201C' '\201D';
+}
+:lang(it-ch) q {
+  quotes: '\00AB' '\00BB' '\2039' '\203A';
+}
+:lang(ja) q {
+  quotes: '\300c' '\300d' '\300e' '\300f';
+}
+:lang(ko) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(lv) q {
+  quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+:lang(lt) q {
+  quotes: '\201E' '\201C';
+}
+:lang(jbo) q {
+  quotes: "lu " " li'u";
+}
+:lang(mk) q {
+  quotes: '\201E' '\201C' '\2019' '\2018';
+}
+:lang(no) q {
+  quotes: '\00AB' '\00BB' '\2018' '\2018';
+}
+:lang(fa) q {
+  quotes: '\00AB' '\00BB';
+}
+:lang(pl) q {
+  quotes: '\201E' '\201D' '\00AB' '\00BB';
+}
+:lang(pt) q {
+  quotes: '\00AB' '\00BB' '\201C' '\201D';
+}
+:lang(pt-br) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(ro) q {
+  quotes: '\201E' '\201D' '\00AB' '\00BB';
+}
+:lang(ru) q {
+  quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+:lang(sr) q {
+  quotes: '\201E' '\201D' '\2019' '\2019';
+}
+:lang(sk) q {
+  quotes: '\201E' '\201C' '\201A' '\2018';
+}
+:lang(sl) q {
+  quotes: '\201E' '\201C' '\201A' '\2018';
+}
+:lang(sb) q {
+  quotes: '\201E' '\201C' '\201A' '\2018';
+}
+:lang(es) q {
+  quotes: '\00AB' '\00BB' '\201C' '\201D';
+}
+:lang(sv) q {
+  quotes: '\201D' '\201D' '\2019' '\2019';
+}
+:lang(th) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(tr) q {
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+:lang(uk) q {
+  quotes: '\00AB' '\00BB';
+}
+:lang(vi) q {
+  quotes: '\201C' '\201D';
+}
+:lang(cy) q {
+  quotes: '\2018' '\2019' '\201C' '\201D';
+}

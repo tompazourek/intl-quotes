@@ -1,0 +1,450 @@
+/*! intl-quotes v0.3.0 | Tomáš Pažourek | MIT License */
+
+// Source: http://en.wikipedia.org/wiki/International_variation_in_quotation_marks
+
+@quot: '\0022'; // "
+@apostrophe: '\0027'; // '
+@laquo: '\00AB'; // «
+@raquo: '\00BB'; // »
+@lsquo: '\2018'; // ‘
+@rsquo: '\2019'; // ’
+@sbquo: '\201A'; // ‚
+@squorev: '\201B'; // ‛
+@ldquo: '\201C'; // “
+@rdquo: '\201D'; // ”
+@bdquo: '\201E'; // „
+@dquorev: '\201F'; // ‟
+@lsaquo: '\2039'; // ‹
+@rsaquo: '\203A'; // ›
+@lcbrac: '\300c'; // 「
+@rcbrac: '\300d'; // 」
+@lwcbrac: '\300e'; // 『
+@rwcbrac: '\300f'; // 』
+@qemspace: '\2005'; //  
+
+:lang(af) { // Afrikaans
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(sq) { // Albanian
+	q {
+		quotes: @bdquo @ldquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(ar) { // Arabic
+	q {
+		quotes: @rdquo @ldquo /* rtl fix */
+				@ldquo @rdquo;
+	}
+}
+
+:lang(hy) { // Armenian
+	q {
+		quotes: @laquo @raquo
+				@laquo @raquo;
+	}
+}
+
+:lang(az) { // Azerbaijani
+	q {
+		quotes: @laquo @raquo
+				@lsaquo @rsaquo;
+	}
+}
+
+:lang(eu) { // Basque
+	q {
+		quotes: @laquo @raquo
+				@lsaquo @rsaquo;
+	}
+}
+
+:lang(be) { // Belarusian
+	q {
+		quotes: @laquo @raquo
+				@laquo @raquo;
+	}
+}
+
+:lang(bg) { // Bulgarian
+	q {
+		quotes: @bdquo @ldquo
+				@rsquo @rsquo;
+	}
+}
+
+:lang(ca) { // Catalan
+	q {
+		quotes: @laquo @raquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(zh) { // Chinese
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(zh-Hans) { // Chinese, simplified
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(zh-Hant) { // Chinese, traditional
+	q {
+		quotes: @lcbrac @rcbrac
+				@lwcbrac @rwcbrac;
+	}
+}
+
+:lang(cr) { // Croatian
+	q {
+		quotes: @bdquo @rdquo
+				@sbquo @rsquo;
+	}
+}
+
+:lang(cs) { // Czech
+	q {
+		quotes: @bdquo @ldquo
+				@sbquo @lsquo;
+	}
+}
+
+:lang(da) { // Danish
+	q {
+		quotes: @raquo @laquo
+				@bdquo @ldquo;
+	}
+}
+
+:lang(nl) { // Dutch
+	q {
+		quotes: @lsquo @rsquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(en) { // English
+	q {
+		quotes: @lsquo @rsquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(en-GB) { // English, British
+	q {
+		quotes: @lsquo @rsquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(en-US) { // English, US
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(en-CA) { // English, Canada
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(eo) { // Esperanto
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(et) { // Estonian
+	q {
+		quotes: @bdquo @ldquo;
+	}
+}
+
+:lang(fil) { // Filipino
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(fi) { // Finnish
+	q {
+		quotes: @rdquo @rdquo
+				@rsquo @rsquo;
+	}
+}
+
+:lang(fr) { // French
+	q {
+		quotes: '@{laquo}@{qemspace}' '@{qemspace}@{raquo}'
+				@ldquo @rdquo;
+	}
+}
+
+:lang(fr-ch) { // French, Swiss
+	q {
+		quotes: @laquo @raquo
+				@lsaquo @rsaquo;
+	}
+}
+
+:lang(ka) { // Georgian
+	q {
+		quotes: @bdquo @ldquo;
+	}
+}
+
+:lang(de) { // German
+	q {
+		quotes: @bdquo @ldquo
+				@sbquo @lsquo;
+	}
+}
+
+:lang(de-ch) { // German, Swiss
+	q {
+		quotes: @laquo @raquo
+				@lsaquo @rsaquo;
+	}
+}
+
+:lang(el) { // Greek
+	q {
+		quotes: @laquo @raquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(he), :lang(iw) { // Hebrew
+	q {
+		quotes: @bdquo @rdquo
+				@rsquo @sbquo; /* rtl fix */
+	}
+}
+
+:lang(hu) { // Hungarian
+	q {
+		quotes: @bdquo @rdquo
+				@raquo @laquo;
+	}
+}
+
+:lang(is) { // Icelandic
+	q {
+		quotes: @bdquo @ldquo
+				@sbquo @lsquo;
+	}
+}
+
+:lang(id) { // Indonesian
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(ia) { // Interlingua
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(ga) { // Irish
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(it) { // Italian
+	q {
+		quotes: @laquo @raquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(it-ch) { // Italian, Swiss
+	q {
+		quotes: @laquo @raquo
+				@lsaquo @rsaquo;
+	}
+}
+
+:lang(ja) { // Japanese
+	q {
+		quotes: @lcbrac @rcbrac
+				@lwcbrac @rwcbrac;
+	}
+}
+
+:lang(ko) { // Korean
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(lv) { // Latvian
+	q {
+		quotes: @laquo @raquo
+				@bdquo @ldquo;
+	}
+}
+
+:lang(lt) { // Lithuanian
+	q {
+		quotes: @bdquo @ldquo;
+	}
+}
+
+:lang(jbo) { // Lojban
+	q {
+		quotes: "lu " " li'u";
+	}
+}
+
+:lang(mk) { // Macedonian
+	q {
+		quotes: @bdquo @ldquo
+				@rsquo @lsquo;
+	}
+}
+
+:lang(no) { // Norwegian
+	q {
+		quotes: @laquo @raquo
+				@lsquo @lsquo;
+	}
+}
+
+:lang(fa) { // Persian
+	q {
+		quotes: @laquo @raquo;
+	}
+}
+
+:lang(pl) { // Polish
+	q {
+		quotes: @bdquo @rdquo
+				@laquo @raquo;
+	}
+}
+
+:lang(pt) { // Portuguese
+	q {
+		quotes: @laquo @raquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(pt-br) { // Portuguese, Brazil
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(ro) { // Romanian
+	q {
+		quotes: @bdquo @rdquo
+				@laquo @raquo;
+	}
+}
+
+:lang(ru) { // Russian
+	q {
+		quotes: @laquo @raquo
+				@bdquo @ldquo;
+	}
+}
+
+:lang(sr) { // Serbian
+	q {
+		quotes: @bdquo @rdquo
+				@rsquo @rsquo;
+	}
+}
+
+:lang(sk) { // Slovak
+	q {
+		quotes: @bdquo @ldquo
+				@sbquo @lsquo;
+	}
+}
+
+:lang(sl) { // Slovene
+	q {
+		quotes: @bdquo @ldquo
+				@sbquo @lsquo;
+	}
+}
+
+:lang(sb) { // Sorbian
+	q {
+		quotes: @bdquo @ldquo
+				@sbquo @lsquo;
+	}
+}
+
+:lang(es) { // Spanish
+	q {
+		quotes: @laquo @raquo
+				@ldquo @rdquo;
+	}
+}
+
+:lang(sv) { // Swedish
+	q {
+		quotes: @rdquo @rdquo
+				@rsquo @rsquo;
+	}
+}
+
+:lang(th) { // Thai
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(tr) { // Turkish
+	q {
+		quotes: @ldquo @rdquo
+				@lsquo @rsquo;
+	}
+}
+
+:lang(uk) { // Ukrainian
+	q {
+		quotes: @laquo @raquo;
+	}
+}
+
+:lang(vi) { // Vietnamese
+	q {
+		quotes: @ldquo @rdquo;
+	}
+}
+
+:lang(cy) { // Welsh
+	q {
+		quotes: @lsquo @rsquo
+				@ldquo @rdquo;
+	}
+}
