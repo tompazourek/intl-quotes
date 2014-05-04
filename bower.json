@@ -1,0 +1,27 @@
+{
+  "name": "intl-quotes",
+  "version": "0.3.0",
+  "homepage": "https://github.com/tompazourek/intl-quotes",
+  "authors": [
+    "Tomáš Pažourek <tom.pazourek@gmail.com>"
+  ],
+  "description": "Small CSS file that correctly sets quotation marks for many different languages.",
+  "keywords": [
+    "quotes",
+    "html",
+    "css",
+    "less",
+    "internationalization",
+    "i18n",
+    "quotation",
+    "marks"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
