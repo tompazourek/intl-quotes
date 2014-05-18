@@ -135,6 +135,12 @@
 :lang(no) q {
   quotes: '\00AB' '\00BB' '\2018' '\2018';
 }
+:lang(nb) q {
+  quotes: '\00AB' '\00BB' '\2018' '\2018';
+}
+:lang(nn) q {
+  quotes: '\00AB' '\00BB' '\2018' '\2018';
+}
 :lang(fa) q {
   quotes: '\00AB' '\00BB';
 }
